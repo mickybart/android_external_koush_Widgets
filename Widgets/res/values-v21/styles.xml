@@ -22,7 +22,9 @@
         <item name="listPreferredItemPaddingRight">?android:attr/listPreferredItemPaddingRight</item>
     </style>
 
-    <style name="ListItemTitle" parent="@android:style/TextAppearance.Material.Body2" />
+    <style name="ListItemTitle" parent="@android:style/TextAppearance.Material.Body2" >
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
 
     <style name="ListItemSummary" parent="@android:style/TextAppearance.Material.Caption" />
 </resources>
